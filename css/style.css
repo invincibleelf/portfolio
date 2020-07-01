@@ -12,6 +12,32 @@ footer ion-icon {
   text-align: center;
 }
 
+h3 {
+  color: #156f86;
+}
+
+h4 {
+  color: #309db9;
+}
+
+.background-btn {
+  background-color: #cfe1f0;
+  color: #2e3d46;
+}
+
+p.work-details {
+  padding: 0 20px;
+  text-align: justify;
+}
+
+footer a {
+  color: #445660;
+}
+
+footer a:hover {
+  color: #2e3d46;
+}
+
 @media (min-width: 576px) {}
 
 @media (min-width: 769px) {}
