@@ -30,6 +30,11 @@ p.work-details {
   text-align: justify;
 }
 
+.ul-nostyle {
+  list-style-type: none;
+  padding: 0;
+}
+
 footer a {
   color: #445660;
 }
