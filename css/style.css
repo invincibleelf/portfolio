@@ -18,6 +18,11 @@ h3 {
 
 h4 {
   color: #309db9;
+  font-size: 1.2rem;
+}
+
+p, ul {
+  font-size: 0.9rem;
 }
 
 .background-btn {
@@ -30,6 +35,15 @@ p.work-details {
   text-align: justify;
 }
 
+.ul-nostyle {
+  list-style-type: none;
+  padding: 0;
+}
+
+.resume-date {
+  color: #757b84;
+}
+
 footer a {
   color: #445660;
 }
@@ -38,9 +52,17 @@ footer a:hover {
   color: #2e3d46;
 }
 
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+  section #resumeContact {
+    text-align: center;
+  }
+}
 
-@media (min-width: 769px) {}
+@media (min-width: 768px) {
+  section #resumeContact {
+    text-align: right;
+  }
+}
 
 @media (min-width: 992px) {
   header nav #headerText {
